@@ -54,3 +54,6 @@ select2
 timepicker
 
 tcpdf
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
