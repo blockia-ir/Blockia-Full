@@ -1,0 +1,33 @@
+tinymce.init({
+    content_css : "../tinymce/mycontent.css",
+    selector: ".tinymceQuestion",
+    language : 'fa',
+    theme: "modern",
+    width: "100%",
+    height: 150,
+	plugins: ["paste image hr directionality  textcolor jbimages "],
+	toolbar1: "   underline italic bold forecolor ltr rtl jbimages",
+	menubar: false,
+    statusbar: false,
+	image_advtab: true,
+    toolbar_items_size: 'small',
+	paste_as_text:false,
+    relative_urls: false,
+});
+
+tinymce.init({
+    content_css : "../tinymce/mycontent.css",
+    selector: ".tinymceAnswer",
+    language : 'fa',
+    theme: "modern",
+    width: "100%",
+    height: 50,
+	plugins: ["paste image hr directionality  textcolor jbimages "],
+	toolbar1: " underline italic bold forecolor ltr rtl jbimages ",
+	menubar: false,
+    statusbar: false,
+	image_advtab: true,
+    toolbar_items_size: 'small',
+	paste_as_text:true,
+    relative_urls: false,
+});

@@ -1,0 +1,253 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background: #fafafa;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    margin-bottom: 60px;
+}
+
+/*-- All Font Family --*/
+*,body,table,tbody,tr,td,th,
+h1,h2,h3,h4,h5,h6,p,span,
+li,a,select,option{
+    font-family: 'Shabnam';
+}
+
+/*-- All Font Size --*/
+.navbar-nav li,.glyphicon,
+.table tr,.btn-default,
+.new_record,span,p,table,th,tr,td,
+input,select,option,textarea,form,
+.dropdown-item,.form-control,.btn{
+    font-size: 13px;
+}
+
+/*==== navbr darkblue ========*/
+
+/*a[href="#none"]::after{
+  content: "none";
+}*/
+.navbar{
+ background-color: #0f1f44;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover{
+ color:#FFCC32;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+ background: #FFCC32;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+a[href="#none"]{
+  display: none;
+}
+/*======== footer ==========*/
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   line-height: 30px;
+   background-color: #f5f5f5;
+   border-top: 1px solid #e0e0e0;
+}
+.footer span{
+   font-family: tahoma;
+   font-size: 11px;
+}
+
+/*========= form ==========*/
+.titleForm{
+ font-size: 20px;
+}
+.searchInput{
+   display: inline-block;
+   width: 100px;
+ }
+ .multiple{
+  display: inline-block;
+   width: 100% !important;
+ }
+ .pdate{
+  display: inline-block;
+  width: 100px;
+ }
+  
+.ms-choice{
+  height: calc(1.5em + .75rem + 2px);
+  /*padding: .375rem .75rem !important;*/
+  padding: 16px !important;
+  font-weight: 400;
+  text-align: right !important;
+  line-height: calc(1.5em + .75rem + 2px);
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da !important;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.ms-choice:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.ms-choice > div{
+  left: 0px;
+  right:auto !important;
+  top: 5px !important;
+}
+.ms-choice > span{
+ top: 3px !important;
+}
+.btn{
+
+}
+form label{
+ margin-bottom:0px;
+ margin-top: .5rem;
+}
+
+/*============= table Grid ================*/
+.grid{
+ overflow: auto;
+}
+table{
+  margin-top: 10px;
+}
+table thead {
+  color: #fff;
+  background: #0f1f44;
+}
+.table td{
+  padding: 0.25rem;
+  vertical-align: middle;
+}
+.table .tableImage{
+ height: 48px;
+ width: 48px;
+ border-radius: 5px;
+}
+.iconEdit{
+   color: #FFCC00;
+   font-size: 18px;
+}
+.iconDelete{
+   color: #F96300;
+   font-size: 20px;
+}
+
+/*========= falshMessages ==========*/
+.alert .close span{
+   font-size: 20px;
+}
+
+/*========= pagination =============*/
+.page-item:first-child .page-link {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+/*---- card ----*/
+#homePage .card .card-title{
+ text-align: center;
+ font-size: 20px;
+
+}
+#homePage .card{
+ min-height: 150px;
+ padding-top: 20px;
+ transition: all .5s;
+ margin-bottom: 20px;
+}
+/*.card:hover{
+ cursor: pointer;
+ box-shadow: 0px 0px 10px 1px #aaa;
+ margin-top: -20px;
+}*/
+/*-- other ----*/
+img{
+	max-width:100%;
+}
+input[type=radio]:checked + label {
+  background: #FFCC00;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 2px 10px 0px 10px;
+}
+
+.select2-selection__arrow{
+ /*display: none !important;*/
+ left: 0px;
+}
+.select2-search__field{
+ text-align: right;
+ direction: rtl;
+}
+.select2-container{
+ width: 100% !important;
+
+}
+.select2-container .select2-selection--single{
+  height:34px !important;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #d0cece !important;
+    border-radius: 4px;
+}
+
+.ltr{
+ direction: ltr !important;
+}
+
+.tooltip-inner {
+    background-color: #0f1f44;
+}
+
+/* ---jQuery UI ----*/
+.ui-sortable{
+ padding-right: 0px;
+}
+.ui-sortable li{
+ margin-bottom: 5px;
+ cursor:pointer;
+}
+/* --- end jQuery UI ----*/
+
+
+@media (max-width: 768px) {
+  #question{
+      min-height:100px;
+      
+  }
+  
+  
+}
+@media print {
+ body {
+   -webkit-print-color-adjust: exact !important;
+ }
+}

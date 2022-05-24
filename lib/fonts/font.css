@@ -1,0 +1,16 @@
+/* 97.3.29 */
+
+@font-face {
+  font-family: 'Vazir';
+  src: url('Vazir.eot?#') format('eot'),  /* IE6–8 */
+       url('Vazir.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('Vazir.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'Shabnam';
+  src: url('Shabnam-FD.eot?#') format('eot'),  /* IE6–8 */
+       url('Shabnam-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('Shabnam-FD.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+

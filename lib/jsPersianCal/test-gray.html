@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-language" content="fa-IR">
+	<title>تقویم فارسی جاوااسکریپت - امیب</title>
+	<link rel="stylesheet" href="main.css">
+	
+	<link rel="stylesheet" href="jspc-gray.css">
+	<script type="text/javascript" src="js-persian-cal.min.js"></script>
+</head>
+
+<body>
+	<p class="box center">
+		<img src="amib.png" alt="AMIB Presents"><br><br>
+		AMIB Javascript Persian DatePicker<br>
+		توسط: <a href="http://amib.ir/weblog">امیب</a>
+	</p>
+
+	<div>
+		<label for="pcal1">تاریخ ۱ - حالت ساده</label><br>
+		<input type="text" id="pcal1" class="pdate"><br>
+		<hr>
+		
+		<label for="pcal2">تاریخ ۲ - تعریف تاریخ ابتدایی</label><br>
+		<input type="text" id="pcal2" class="pdate"><br>
+		<hr>
+		
+		<label for="pcal3">تاریخ ۳ - تعریف تاریخ پیش‌فرض در صورت صحیح نبودن مقدار فیلد</label><br>
+		<input type="text" id="pcal3" class="pdate"><br>
+		<hr>
+		
+		<label for="pcal4">تاریخ ۴ - آگاه شدن هنگام تغییر</label><br>
+		<input type="text" id="pcal4" class="pdate"><br>
+		<hr>
+		
+		<label for="pcal5">تاریخ ۵ - همراه پر کردن فیلد اضافی</label><br>
+		<input type="text" id="pcal5" class="pdate"><br>
+		<label for="extra">YYYY/MM/DD - yyyy/mm/dd - JD</label><br>
+		<input type="text" id="extra" class="pdate wide">
+	</div>
+
+	<script type="text/javascript">
+		var objCal1 = new AMIB.persianCalendar( 'pcal1' );
+
+		var objCal2 = new AMIB.persianCalendar( 'pcal2', {
+				initialDate: '1301/1/1',
+			}
+		);
+		
+		var objCal3 = new AMIB.persianCalendar( 'pcal3', {
+				defaultDate: '1401/12/12'
+			}
+		);
+		
+		var objCal4 = new AMIB.persianCalendar( 'pcal4', {
+				onchange: function( pdate ){
+					if( pdate ) {
+						alert( pdate.join( '/' ) );
+					} else {
+						alert( 'تاریخ واردشده نادرست است' );
+					}
+				}
+			}
+		);
+
+		var objCal5 = new AMIB.persianCalendar( 'pcal5', {
+				extraInputID: 'extra',
+				extraInputFormat: 'YYYY/MM/DD - yyyy/mm/dd - JD'
+			}
+		);
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>error 403</title>
+</head>
+<body dir="rtl" bgcolor="f7f7f7">
+    <center>
+        <h1>خطای 403</h1>
+        <h2> اگر هنگام ثبت سوال بودید که با چنین خطای مواجه شدید </h2>
+        <h2> به احتمال زیاد در گزینه  های پاسخ و یا صورت سوال کلماتی را نوشته اید که جزو دستور برنامه نویسی محسوب می شوند و سیستم  بخاطر مسائل امنیتی جلو شما را گرفته است</h2>
+        <h2> برای حل مشکل می توانید بین حروف در قسمت پاسخ  یک فاصله  قرار بدید مثلا بجای نوشتن  کلمه AND بنویسید A N D</h2>
+        <h2><a href='<!--#echo var="HTTP_REFERER" -->' >بازگشت به  صفحه قبل</a></h2>
+       
+    </center>
+
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+#DirectoryIndex index.php
+
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^(.*)$ https://blockia.ir/$1 [R,L]
+
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php
+
+<files "settingAdmin.ini">
+order allow,deny
+deny from all
+</files>

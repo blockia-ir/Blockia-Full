@@ -1,0 +1,63 @@
+/*
+Theme Name : Blockia
+Author : Hossein Pira
+License : Open Source
+Price For Download : 0 or free
+*/
+*{
+  font-family: 'Shabnam';
+}
+body{
+    background-image: url(../images/9.png);
+}
+
+#headerExam{
+  height: 60px;
+}
+#seprator{
+   height: 70px !important;
+  }
+.question{
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color:#333;
+}
+.question p{
+  display: inline;
+}
+.option{
+  cursor: pointer;
+}
+input[type=radio]:checked + label {
+  background: #FFCC00;
+  border: 2px solid #ffCC00 !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type=radio]{
+  display: none;
+}
+.blockQuestion img{
+  max-width: 100%;
+}
+.ltr{
+  direction: ltr !important;
+  text-align: left !important
+}
+.rtl{
+  direction: rtl !important;
+  text-align:  right !important;
+}
+
+.alert .close
+{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  
+ 
+  
+}

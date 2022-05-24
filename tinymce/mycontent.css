@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Shabnam';
+  src: url('../lib/fonts/Shabnam-FD.eot?#') format('eot'),  /* IE6–8 */
+       url('../lib/fonts/Shabnam-FD.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../lib/fonts/Shabnam-FD.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+body, td, pre {direction: rtl;color:#000; font-family:Shabnam,Verdana, Arial, Helvetica, sans-serif; font-size:18px; margin:8px;}

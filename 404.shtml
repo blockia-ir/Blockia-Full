@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8">
+    
+    <title>صفحه مورد نظر یافت نشد</title>
+</head>
+<body>
+
+<center>
+    <h1>صفحه مورد نظر یافت نشد</h1>
+    <h1>خطای 404</h1>
+    
+    <h2><a href="/admin/login.php" >ورود به پنل مدیریت آزمونها</a></h2>
+</center>
+</body>
+</html>
