@@ -29,9 +29,9 @@ https://blockia.ir/blog
 
 [کتابخانه‌ی تاریخ شمسی PHP](https://jdf.scr.ir/)
 
-فونت فارسی
+[فونت فارسی](https://rastikerdar.github.io/)
 
-Bootstrap
+[Bootstrap](https://getbotstrap.com/)
 
 Chart
 
