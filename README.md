@@ -39,7 +39,7 @@ https://blockia.ir/blog
 
 [PHPExcel](http://www.codeplex.com/PHPExcel/)
 
-FontAwesome
+[FontAwesome](https://fontawesome.com/)
 
 RESPONSIVE filemanager
 
