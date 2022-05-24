@@ -23,3 +23,34 @@ https://blockia.ir/blog/download
 
 آموزشگاه 
 https://blockia.ir/blog
+
+# کتابخانه های مورد استفاده
+تقویم فارسی جاوااسکریپت
+
+کتابخانه‌ی تاریخ شمسی PHP
+
+فونت فارسی
+
+Bootstrap
+
+Chart
+
+Datatable
+
+PHPExcel
+
+FontAwesome
+
+RESPONSIVE filemanager
+
+jQuery
+
+jQuery UI
+
+multiple-select
+
+select2
+
+timepicker
+
+tcpdf
