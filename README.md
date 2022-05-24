@@ -31,7 +31,7 @@ https://blockia.ir/blog
 
 [فونت فارسی](https://rastikerdar.github.io/)
 
-[Bootstrap](https://getbotstrap.com/)
+[Bootstrap](https://getbootstrap.com/)
 
 Chart
 
