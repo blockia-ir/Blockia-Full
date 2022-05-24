@@ -43,19 +43,19 @@ https://blockia.ir/blog
 
 [FontAwesome](https://fontawesome.com/)
 
-RESPONSIVE filemanager
+[RESPONSIVE filemanager](https://www.responsivefilemanager.com/)
 
-jQuery
+[jQuery](https://jquery.com/)
 
-jQuery UI
+[jQuery UI](https://jqueryui.com/)
 
-multiple-select
+[multiple-select](http://wenzhixin.net.cn/p/multiple-select/)
 
-select2
+[select2](https://select2.github.io/)
 
-timepicker
+[timepicker](https://github.com/jonataswalker/timepicker.js)
 
-tcpdf
+[tcpdf](https://tcpdf.org/)
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
