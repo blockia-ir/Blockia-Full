@@ -35,7 +35,7 @@ https://blockia.ir/blog
 
 [Chart](https://www.chartjs.org/)
 
-Datatable
+[Datatable](https://datatables.net/)
 
 PHPExcel
 
