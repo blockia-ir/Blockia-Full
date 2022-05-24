@@ -33,7 +33,7 @@ https://blockia.ir/blog
 
 [Bootstrap](https://getbootstrap.com/)
 
-Chart
+[Chart](https://www.chartjs.org/)
 
 Datatable
 
